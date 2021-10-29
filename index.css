@@ -1,0 +1,40 @@
+html {
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background-color: #000000;
+  padding: 0 20px 20px 20px;
+  border: solid rgb(21, 255, 0);
+  border-radius: 8px;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: yellow;
+}
+h1 {
+  white-space: nowrap;
+  overflow: hidden;
+  width: 88rem;
+  animation: linearwipe 5s steps(50, end);
+}
+
+@keyframes linearwipe {
+  from {
+    width: 0;
+  }
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 1.75;
+  letter-spacing: 1px;
+  color: white;
+}
+h3 {
+  text-align: right;
+}
